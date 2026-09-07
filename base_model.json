@@ -1,0 +1,626 @@
+{
+ "BasicInfo": {
+  "motor": {
+   "leftMotor": 3,
+   "rightMotor": 3,
+   "ltMotor": 0,
+   "rtMotor": 0
+  },
+  "audio": {
+   "audioEnable": false,
+   "audioVolume": 0,
+   "audioMixer": 0,
+   "micMute": 0,
+   "micSensitivity": 0
+  },
+  "extend": {
+   "shiftEnable": false,
+   "shiftValue": 0,
+   "dpadDiagonalLockEnable": false,
+   "xinputAbxyChange": false,
+   "switchAbxyChange": false,
+   "reportRate": 2,
+   "motionControlPrecision": 0,
+   "stickResolution": 4
+  }
+ },
+ "KeyProfiles": {
+  "Up": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "Under": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "Left": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "Right": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "L1": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "R1": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "L3": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "R3": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "CRO": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "CIR": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "SQU": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "TRI": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "PS": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "Sel": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "Sta": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "Camera": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   }
+  },
+  "FL1": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "macro": {
+    "isPressToTrigger": false,
+    "cycle": false,
+    "cycleTime": 0,
+    "steps": []
+   }
+  },
+  "FR1": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "macro": {
+    "isPressToTrigger": false,
+    "cycle": false,
+    "cycleTime": 0,
+    "steps": []
+   }
+  },
+  "Ext1": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "macro": {
+    "isPressToTrigger": false,
+    "cycle": false,
+    "cycleTime": 0,
+    "steps": []
+   }
+  },
+  "Ext2": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "macro": {
+    "isPressToTrigger": false,
+    "cycle": false,
+    "cycleTime": 0,
+    "steps": []
+   }
+  },
+  "Ext3": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "macro": {
+    "isPressToTrigger": false,
+    "cycle": false,
+    "cycleTime": 0,
+    "steps": []
+   }
+  },
+  "Ext4": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "macro": {
+    "isPressToTrigger": false,
+    "cycle": false,
+    "cycleTime": 0,
+    "steps": []
+   }
+  },
+  "Ext5": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "macro": {
+    "isPressToTrigger": false,
+    "cycle": false,
+    "cycleTime": 0,
+    "steps": []
+   }
+  },
+  "Ext6": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "macro": {
+    "isPressToTrigger": false,
+    "cycle": false,
+    "cycleTime": 0,
+    "steps": []
+   }
+  },
+  "Ext7": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "macro": {
+    "isPressToTrigger": false,
+    "cycle": false,
+    "cycleTime": 0,
+    "steps": []
+   }
+  },
+  "L2": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "deadzone": {
+    "beginDeadzone": 50,
+    "endDeadzone": 950,
+    "beginAntiDeadzone": 0,
+    "endAntiDeadzone": 1000
+   },
+   "hairTrigger": {
+    "enabled": false,
+    "mode": 1,
+    "beginRange": 1,
+    "endRange": 100
+   },
+   "curve": {
+    "type": 0,
+    "curvature": 100,
+    "points": [
+     {
+      "x": 25,
+      "y": 25
+     },
+     {
+      "x": 50,
+      "y": 50
+     },
+     {
+      "x": 75,
+      "y": 75
+     }
+    ]
+   }
+  },
+  "R2": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "deadzone": {
+    "beginDeadzone": 50,
+    "endDeadzone": 950,
+    "beginAntiDeadzone": 0,
+    "endAntiDeadzone": 1000
+   },
+   "hairTrigger": {
+    "enabled": false,
+    "mode": 1,
+    "beginRange": 1,
+    "endRange": 100
+   },
+   "curve": {
+    "type": 0,
+    "curvature": 100,
+    "points": [
+     {
+      "x": 25,
+      "y": 25
+     },
+     {
+      "x": 50,
+      "y": 50
+     },
+     {
+      "x": 75,
+      "y": 75
+     }
+    ]
+   }
+  },
+  "Ext8": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "sensitivity": 60,
+   "triggerMode": 0
+  },
+  "Ext9": {
+   "key": {
+    "turbo": 0,
+    "mapKeys": [],
+    "toggleOnPress": false,
+    "keyType": "Self",
+    "keyName": ""
+   },
+   "sensitivity": 50,
+   "triggerMode": 0
+  }
+ },
+ "Sticks": {
+  "Left": {
+   "rawEnabled": false,
+   "deadzone": {
+    "beginDeadzone": 50,
+    "endDeadzone": 1000,
+    "beginAntiDeadzone": 0,
+    "endAntiDeadzone": 1000
+   },
+   "curve": {
+    "type": 0,
+    "curvature": 100,
+    "points": [
+     {
+      "x": 5,
+      "y": 0
+     },
+     {
+      "x": 29,
+      "y": 25
+     },
+     {
+      "x": 53,
+      "y": 50
+     },
+     {
+      "x": 76,
+      "y": 75
+     },
+     {
+      "x": 100,
+      "y": 100
+     }
+    ]
+   },
+   "advanceMap": {
+    "outputType": 1,
+    "reverseHorizontal": false,
+    "reverseVertical": false,
+    "reverseHorizontal_Yaw": false,
+    "cross": 0,
+    "axisRatio": 50,
+    "mouseDpi": 50,
+    "wheelMapping": {
+     "outline": "",
+     "up": "",
+     "under": "",
+     "left": "",
+     "right": ""
+    },
+    "stickSensitivity": 50
+   }
+  },
+  "Right": {
+   "rawEnabled": false,
+   "deadzone": {
+    "beginDeadzone": 50,
+    "endDeadzone": 1000,
+    "beginAntiDeadzone": 0,
+    "endAntiDeadzone": 1000
+   },
+   "curve": {
+    "type": 0,
+    "curvature": 100,
+    "points": [
+     {
+      "x": 5,
+      "y": 0
+     },
+     {
+      "x": 29,
+      "y": 25
+     },
+     {
+      "x": 53,
+      "y": 50
+     },
+     {
+      "x": 76,
+      "y": 75
+     },
+     {
+      "x": 100,
+      "y": 100
+     }
+    ]
+   },
+   "advanceMap": {
+    "outputType": 2,
+    "reverseHorizontal": false,
+    "reverseVertical": false,
+    "reverseHorizontal_Yaw": false,
+    "cross": 0,
+    "axisRatio": 50,
+    "mouseDpi": 50,
+    "wheelMapping": {
+     "outline": "",
+     "up": "",
+     "under": "",
+     "left": "",
+     "right": ""
+    },
+    "stickSensitivity": 50
+   }
+  }
+ },
+ "Motion": {
+  "Aim": {
+   "activateBehavior": 0,
+   "orientation": 0,
+   "triggerKey": [],
+   "activeAxis": 0,
+   "deadzone": {
+    "beginDeadzone": 0,
+    "endDeadzone": 1000,
+    "beginAntiDeadzone": 0,
+    "endAntiDeadzone": 1000
+   },
+   "curve": {
+    "type": 0,
+    "curvature": 100,
+    "points": [
+     {
+      "x": 0,
+      "y": 0
+     },
+     {
+      "x": 25,
+      "y": 25
+     },
+     {
+      "x": 50,
+      "y": 50
+     },
+     {
+      "x": 75,
+      "y": 75
+     },
+     {
+      "x": 100,
+      "y": 100
+     }
+    ]
+   },
+   "advanceMap": {
+    "outputType": 1,
+    "reverseHorizontal": false,
+    "reverseVertical": false,
+    "reverseHorizontal_Yaw": false,
+    "cross": 0,
+    "axisRatio": 50,
+    "mouseDpi": 50,
+    "wheelMapping": {
+     "outline": "",
+     "up": "",
+     "under": "",
+     "left": "",
+     "right": ""
+    },
+    "stickSensitivity": 50
+   }
+  },
+  "Tilt": {
+   "activateBehavior": 0,
+   "orientation": 0,
+   "triggerKey": [],
+   "activeAxis": 0,
+   "deadzone": {
+    "beginDeadzone": 50,
+    "endDeadzone": 1000,
+    "beginAntiDeadzone": 0,
+    "endAntiDeadzone": 1000
+   },
+   "curve": {
+    "type": 0,
+    "curvature": 100,
+    "points": [
+     {
+      "x": 5,
+      "y": 0
+     },
+     {
+      "x": 29,
+      "y": 25
+     },
+     {
+      "x": 53,
+      "y": 50
+     },
+     {
+      "x": 76,
+      "y": 75
+     },
+     {
+      "x": 100,
+      "y": 100
+     }
+    ]
+   },
+   "advanceMap": {
+    "outputType": 2,
+    "reverseHorizontal": false,
+    "reverseVertical": false,
+    "reverseHorizontal_Yaw": false,
+    "cross": 0,
+    "axisRatio": 50,
+    "mouseDpi": 50,
+    "wheelMapping": {
+     "outline": "",
+     "up": "",
+     "under": "",
+     "left": "",
+     "right": ""
+    },
+    "stickSensitivity": 50
+   }
+  }
+ }
+}

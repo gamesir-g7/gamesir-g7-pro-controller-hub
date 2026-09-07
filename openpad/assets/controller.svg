@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="520" viewBox="0 0 650 520" fill="none">
+  <defs>
+    <linearGradient id="shell" x1="325" y1="42" x2="325" y2="495" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#464D59"/>
+      <stop offset="0.20" stop-color="#303641"/>
+      <stop offset="0.62" stop-color="#20262F"/>
+      <stop offset="1" stop-color="#11161D"/>
+    </linearGradient>
+    <linearGradient id="face" x1="325" y1="67" x2="325" y2="394" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2C323D"/>
+      <stop offset="0.52" stop-color="#1D232C"/>
+      <stop offset="1" stop-color="#151A21"/>
+    </linearGradient>
+    <linearGradient id="grip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2C323C"/>
+      <stop offset="0.55" stop-color="#1B2028"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="shoulder" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#525966"/>
+      <stop offset="0.28" stop-color="#343A45"/>
+      <stop offset="1" stop-color="#171C23"/>
+    </linearGradient>
+    <linearGradient id="bevel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#68717E"/>
+      <stop offset="0.26" stop-color="#353C47"/>
+      <stop offset="1" stop-color="#11161D"/>
+    </linearGradient>
+    <radialGradient id="buttonCap" cx="0" cy="0" r="1" gradientTransform="translate(0.38 0.27) rotate(55) scale(0.82)">
+      <stop stop-color="#606977"/>
+      <stop offset="0.25" stop-color="#2A303A"/>
+      <stop offset="0.74" stop-color="#11161D"/>
+      <stop offset="1" stop-color="#070A0E"/>
+    </radialGradient>
+    <radialGradient id="stickCap" cx="0" cy="0" r="1" gradientTransform="translate(0.38 0.30) rotate(55) scale(0.80)">
+      <stop stop-color="#5C6573"/>
+      <stop offset="0.20" stop-color="#313844"/>
+      <stop offset="0.65" stop-color="#171C23"/>
+      <stop offset="1" stop-color="#080B10"/>
+    </radialGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#BCA9FF"/>
+      <stop offset="0.45" stop-color="#8B6DFF"/>
+      <stop offset="1" stop-color="#5D3ADF"/>
+    </linearGradient>
+    <pattern id="gripDots" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.95" fill="#9CA6B4" opacity="0.18"/>
+      <circle cx="6" cy="6" r="0.85" fill="#030508" opacity="0.36"/>
+    </pattern>
+    <pattern id="rubberRings" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 2.5H5" stroke="#A4ADBA" stroke-width="0.6" opacity="0.18"/>
+    </pattern>
+    <filter id="shadow" x="-25%" y="-20%" width="150%" height="165%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#00030A" flood-opacity="0.86"/>
+    </filter>
+    <filter id="softGlow" x="-250%" y="-250%" width="600%" height="600%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="325" cy="491" rx="236" ry="22" fill="#03050A" opacity="0.76" filter="url(#softGlow)"/>
+
+  <g filter="url(#shadow)">
+    <!-- Four physical shoulder controls, visible from the front. -->
+    <path d="M73 47C77 22 99 7 128 7L173 13L179 45L163 66L88 70L70 59Z" fill="#1A1F27" stroke="#6D7581" stroke-width="2"/>
+    <path d="M577 47C573 22 551 7 522 7L477 13L471 45L487 66L562 70L580 59Z" fill="#1A1F27" stroke="#6D7581" stroke-width="2"/>
+
+    <path d="M84 23C104 11 137 10 169 17L173 42L91 57L76 46Z" fill="url(#shoulder)" stroke="#737C89" stroke-width="2"/>
+    <path d="M566 23C546 11 513 10 481 17L477 42L559 57L574 46Z" fill="url(#shoulder)" stroke="#737C89" stroke-width="2"/>
+    <path d="M82 57L174 41L183 64L165 91L91 101L70 85Z" fill="url(#shoulder)" stroke="#68717E" stroke-width="2.5"/>
+    <path d="M568 57L476 41L467 64L485 91L559 101L580 85Z" fill="url(#shoulder)" stroke="#68717E" stroke-width="2.5"/>
+
+    <path d="M91 27C112 18 142 18 163 22" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.23"/>
+    <path d="M559 27C538 18 508 18 487 22" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.23"/>
+    <path d="M85 61L167 48" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.16"/>
+    <path d="M565 61L483 48" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.16"/>
+
+    <text x="126" y="42" text-anchor="middle" fill="#E7EAF0" font-family="Noto Sans, sans-serif" font-size="14" font-weight="700">LT</text>
+    <text x="524" y="42" text-anchor="middle" fill="#E7EAF0" font-family="Noto Sans, sans-serif" font-size="14" font-weight="700">RT</text>
+    <text x="126" y="79" text-anchor="middle" fill="#E7EAF0" font-family="Noto Sans, sans-serif" font-size="14" font-weight="700">LB</text>
+    <text x="524" y="79" text-anchor="middle" fill="#E7EAF0" font-family="Noto Sans, sans-serif" font-size="14" font-weight="700">RB</text>
+
+    <!-- Original manufacturer-neutral shell. -->
+    <path d="M106 57C73 62 57 91 49 130L12 350C1 423 43 501 101 501C143 501 164 460 191 421L216 391H434L459 421C486 460 507 501 549 501C607 501 649 423 638 350L601 130C593 91 577 62 544 57C449 39 201 39 106 57Z" fill="#656E7B"/>
+    <path d="M108 65C80 70 68 94 60 134L25 351C16 407 49 480 98 480C131 480 151 445 177 405L207 365C253 392 397 392 443 365L473 405C499 445 519 480 552 480C601 480 634 407 625 351L590 134C582 94 570 70 542 65C448 48 202 48 108 65Z" fill="url(#shell)"/>
+
+    <!-- Main face plate. -->
+    <path d="M106 66C202 48 448 48 544 66C568 71 579 93 585 130L606 267C560 287 517 326 468 373C403 395 247 395 182 373C133 326 90 287 44 267L65 130C71 93 82 71 106 66Z" fill="url(#face)" stroke="#4C5562" stroke-width="2"/>
+    <path d="M112 70C208 54 442 54 538 70" stroke="#9AA3B0" stroke-width="2.5" stroke-linecap="round" opacity="0.33"/>
+
+    <!-- Front shoulder buttons sit above the face plate. -->
+    <path d="M82 57L174 41L183 64L165 91L91 101L70 85Z" fill="url(#shoulder)" stroke="#77818E" stroke-width="2.5"/>
+    <path d="M568 57L476 41L467 64L485 91L559 101L580 85Z" fill="url(#shoulder)" stroke="#77818E" stroke-width="2.5"/>
+    <path d="M85 61L167 48" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.20"/>
+    <path d="M565 61L483 48" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.20"/>
+    <text x="126" y="79" text-anchor="middle" fill="#F1F3F7" font-family="Noto Sans, sans-serif" font-size="14" font-weight="700">LB</text>
+    <text x="524" y="79" text-anchor="middle" fill="#F1F3F7" font-family="Noto Sans, sans-serif" font-size="14" font-weight="700">RB</text>
+
+    <!-- Recessed upper equipment panel. -->
+    <path d="M210 79H440L455 145L421 174H229L195 145L210 79Z" fill="#0D1117" stroke="#626C79" stroke-width="3"/>
+    <path d="M223 91H427L438 137L412 158H238L212 137L223 91Z" fill="#151A21" stroke="#2F3742" stroke-width="2"/>
+    <path d="M260 123H390" stroke="#737D8A" stroke-width="2" stroke-linecap="round" opacity="0.54"/>
+
+    <!-- Textured grip panels. -->
+    <path d="M46 252C72 267 105 300 150 348L174 379L145 430C128 460 112 477 91 474C55 469 29 405 36 354L46 252Z" fill="url(#grip)" stroke="#3B4450" stroke-width="2"/>
+    <path d="M604 252C578 267 545 300 500 348L476 379L505 430C522 460 538 477 559 474C595 469 621 405 614 354L604 252Z" fill="url(#grip)" stroke="#3B4450" stroke-width="2"/>
+    <path d="M49 261C77 280 111 313 151 359L164 380L136 429C121 454 106 466 91 463C62 458 42 403 48 358L49 261Z" fill="url(#gripDots)" opacity="0.92"/>
+    <path d="M601 261C573 280 539 313 499 359L486 380L514 429C529 454 544 466 559 463C588 458 608 403 602 358L601 261Z" fill="url(#gripDots)" opacity="0.92"/>
+
+    <!-- Premium faceted D-pad. -->
+    <circle cx="145" cy="244" r="67" fill="#090D12" stroke="#56606D" stroke-width="5"/>
+    <circle cx="145" cy="244" r="57" fill="#171C23" stroke="#262E38" stroke-width="2"/>
+    <path d="M129 188H161V228H201V260H161V300H129V260H89V228H129V188Z" fill="url(#bevel)" stroke="#A9B1BC" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M136 196H154V236H194" stroke="#F2F4F7" stroke-width="3" stroke-linecap="round" opacity="0.26"/>
+    <path d="M145 201L138 213H152L145 201ZM145 287L138 275H152L145 287ZM102 244L114 237V251L102 244ZM188 244L176 237V251L188 244Z" fill="#B7BEC8" opacity="0.76"/>
+    <circle cx="145" cy="244" r="9" fill="#262D37"/>
+
+    <!-- Small View and Menu controls. -->
+    <circle cx="271" cy="230" r="17" fill="#090D12" stroke="#505A67" stroke-width="3"/>
+    <circle cx="379" cy="230" r="17" fill="#090D12" stroke="#505A67" stroke-width="3"/>
+    <rect x="264" y="224" width="14" height="11" rx="1.5" fill="none" stroke="#A8B0BB" stroke-width="1.7"/>
+    <path d="M371 224H387M371 230H387M371 236H387" stroke="#A8B0BB" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Original center control. -->
+    <rect x="294" y="247" width="62" height="62" rx="17" transform="rotate(45 325 278)" fill="#090D12" stroke="#4E5865" stroke-width="4"/>
+    <rect x="305" y="258" width="40" height="40" rx="10" transform="rotate(45 325 278)" fill="#121821" stroke="#7C5CFF" stroke-width="3"/>
+    <path d="M325 261L341 278L325 295L309 278L325 261Z" fill="url(#bevel)"/>
+    <path d="M325 264L338 278L325 278Z" fill="#B7A6FF" opacity="0.68"/>
+
+    <!-- Recessed ABXY button assembly. -->
+    <path d="M515 151C551 151 581 181 581 217C581 253 551 298 515 298C479 298 449 253 449 217C449 181 479 151 515 151Z" fill="#171C23" stroke="#313945" stroke-width="2" opacity="0.82"/>
+
+    <g>
+      <circle cx="515" cy="170" r="27" fill="#090C11" stroke="#596371" stroke-width="4"/>
+      <circle cx="566" cy="221" r="27" fill="#090C11" stroke="#596371" stroke-width="4"/>
+      <circle cx="464" cy="221" r="27" fill="#090C11" stroke="#596371" stroke-width="4"/>
+      <circle cx="515" cy="272" r="27" fill="#090C11" stroke="#596371" stroke-width="4"/>
+      <circle cx="515" cy="170" r="20" fill="url(#buttonCap)" stroke="#262D36" stroke-width="2"/>
+      <circle cx="566" cy="221" r="20" fill="url(#buttonCap)" stroke="#262D36" stroke-width="2"/>
+      <circle cx="464" cy="221" r="20" fill="url(#buttonCap)" stroke="#262D36" stroke-width="2"/>
+      <circle cx="515" cy="272" r="20" fill="url(#buttonCap)" stroke="#262D36" stroke-width="2"/>
+      <path d="M503 159C510 151 521 150 528 154" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+      <path d="M554 210C561 202 572 201 579 205" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+      <path d="M452 210C459 202 470 201 477 205" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+      <path d="M503 261C510 253 521 252 528 256" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+      <text x="515" y="177" text-anchor="middle" fill="#F6D449" font-family="Noto Sans, sans-serif" font-size="21" font-weight="800">Y</text>
+      <text x="566" y="228" text-anchor="middle" fill="#FF626C" font-family="Noto Sans, sans-serif" font-size="21" font-weight="800">B</text>
+      <text x="464" y="228" text-anchor="middle" fill="#45C8FF" font-family="Noto Sans, sans-serif" font-size="21" font-weight="800">X</text>
+      <text x="515" y="279" text-anchor="middle" fill="#61D99A" font-family="Noto Sans, sans-serif" font-size="21" font-weight="800">A</text>
+    </g>
+
+    <!-- Deep analog stick wells. -->
+    <g>
+      <circle cx="245" cy="370" r="67" fill="#090C11" stroke="#4D5663" stroke-width="5"/>
+      <circle cx="245" cy="370" r="57" fill="#0A0E14" stroke="#7C5CFF" stroke-width="5"/>
+      <circle cx="245" cy="370" r="49" fill="none" stroke="#B09CFF" stroke-width="2" opacity="0.62"/>
+      <circle cx="245" cy="370" r="39" fill="url(#stickCap)" stroke="#0A0D12" stroke-width="6"/>
+      <circle cx="245" cy="370" r="30" fill="url(#rubberRings)" stroke="#5A6370" stroke-width="1.5" opacity="0.85"/>
+      <circle cx="405" cy="370" r="67" fill="#090C11" stroke="#4D5663" stroke-width="5"/>
+      <circle cx="405" cy="370" r="57" fill="#0A0E14" stroke="#7C5CFF" stroke-width="5"/>
+      <circle cx="405" cy="370" r="49" fill="none" stroke="#B09CFF" stroke-width="2" opacity="0.62"/>
+      <circle cx="405" cy="370" r="39" fill="url(#stickCap)" stroke="#0A0D12" stroke-width="6"/>
+      <circle cx="405" cy="370" r="30" fill="url(#rubberRings)" stroke="#5A6370" stroke-width="1.5" opacity="0.85"/>
+    </g>
+
+    <!-- Stick-click labels stay legible above the wells. -->
+    <path d="M151 350H190L201 361L190 372H151C140 372 135 361 140 354C142 352 147 350 151 350Z" fill="#10151C" stroke="#56606D" stroke-width="2"/>
+    <path d="M499 350H460L449 361L460 372H499C510 372 515 361 510 354C508 352 503 350 499 350Z" fill="#10151C" stroke="#56606D" stroke-width="2"/>
+    <text x="160" y="366" text-anchor="middle" fill="#D1D6DE" font-family="Noto Sans, sans-serif" font-size="14" font-weight="700">L3</text>
+    <text x="490" y="366" text-anchor="middle" fill="#D1D6DE" font-family="Noto Sans, sans-serif" font-size="14" font-weight="700">R3</text>
+  </g>
+</svg>

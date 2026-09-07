@@ -1,0 +1,23 @@
+{
+  "v": 1,
+  "appVer": "1.11.3",
+  "productType": "G7ProCE",
+  "ts": 1700000000000,
+  "diff": {
+    "ProfileName": "Example",
+    "BasicInfo": {
+      "extend": {
+        "stickResolution": 4
+      }
+    },
+    "KeyProfiles": {
+      "FL1": {
+        "key": { "mapKeys": ["CRO"], "keyType": "Mapped", "keyName": "CRO" }
+      }
+    },
+    "Sticks": {
+      "Left":  { "deadzone": { "beginDeadzone": 30 } },
+      "Right": { "deadzone": { "beginDeadzone": 20 } }
+    }
+  }
+}

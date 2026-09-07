@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local scratch / anything with personal profile data
+profile_decoded.json
+*.local.*
+scratch/
+codec_region.txt
