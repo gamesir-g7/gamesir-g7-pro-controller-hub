@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="controller-preview.png" width="720" alt="GameSir G7 Pro family controller layout preview">
+  <img src="controller-preview.png" width="360" alt="GameSir G7 Pro family controller layout preview">
 </p>
 
 # GameSir G7 Pro Controller Hub - Local Tools for G7, 8K, and Xbox-Mode Configuration
