@@ -42,8 +42,6 @@ Community modules in this repository were developed around GameSir pads that exp
 | GameSir T4 Nova Lite | `3537:1040` XInput | PS3 community config | See `configs/xpad_devices_gamesir_t4_nova_lite.txt` |
 | Regular G7 Pro (Xbox-only) | Xbox input only | Blocked on Linux | Input works; vendor config channel not exposed |
 
-![G7 layout diagram](g7-layout-diagram.png)
-
 Put the pad in Xbox mode before expecting configuration tools to connect. In PS4/DS4 or Switch mode the vendor protocol is inert and tools should refuse state-changing writes.
 
 ---
